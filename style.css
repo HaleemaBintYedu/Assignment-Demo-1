@@ -1,0 +1,71 @@
+body {
+    background-image: url("./image/FruitPic.jpg");
+    background-size: cover;
+    /* height: 100%; */
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+    padding: 20px 100px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: antiquewhite;
+    font-size: small;
+}
+
+.dit {
+    font-style: italic;
+    font-size: large;
+    font-family: arial;
+}
+
+h2 {
+    font-size: xx-large;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 100px;
+    color: whitesmoke;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 50px;
+    color: whitesmoke;
+}
+
+button {
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    color: whitesmoke;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+button:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+
+.dip {
+    display: flex;
+    justify-content: center;
+}
